@@ -1,0 +1,25 @@
+#!/bin/bash
+
+#The password for the next level is stored in the only human-readable file in the inhere directory. 
+#Tip: if your terminal is messed up, try the “reset” command.
+
+#user: bandit4
+#password: pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+ls 
+#Output: inhere
+cd inhere
+file /home/bandit4/inhere/-file0*
+#output: 
+# /home/bandit4/inhere/-file00: data
+# /home/bandit4/inhere/-file01: data
+# /home/bandit4/inhere/-file02: data
+# /home/bandit4/inhere/-file03: data
+# /home/bandit4/inhere/-file04: data
+# /home/bandit4/inhere/-file05: data
+# /home/bandit4/inhere/-file06: data
+# /home/bandit4/inhere/-file07: ASCII text
+# /home/bandit4/inhere/-file08: data
+# /home/bandit4/inhere/-file09: data
+
+cat /home/bandit4/inhere/-file07
+#Final password: koReBOKuIDDepwhWk7jZC0RTdopnAYKh

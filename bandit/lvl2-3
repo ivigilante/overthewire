@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# The password for the next level is stored in a file called cat spaces in this filename located in the home directory
+#user: bandit2
+#password: CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+
+cat spaces\ in\ this\ filename
+
+#Final password: UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
